@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -9,4 +11,16 @@ body {
    align-items: center;
    justify-content: center;
    height: 100vh;
+   
+}
+
+button.magic {
+   font-family: 'Kablammo', cursive;
+   background-color: #f9ca24;
+   color: rgb(117, 2, 112);
+   font-weight: 600;
+   font-size: 16px;
+   border-radius: 3px;
+   padding: 12px 20px;
+   cursor: pointer;
 }
