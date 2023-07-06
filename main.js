@@ -1,0 +1,1 @@
+const box = document.querySelector(".boxes").classList.add("big")
