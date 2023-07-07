@@ -59,7 +59,10 @@ button.magic {
 }
 
 .box {
-  background-color: yellow;
+  background-image: url(./asset/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   height: 110px;
   width: 110px;
 }
