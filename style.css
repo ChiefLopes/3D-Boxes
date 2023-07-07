@@ -47,17 +47,19 @@ button.magic {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  top: 30px;
+}
+
+.big {
   height: 500px;
   width: 500px;
 }
 
-.big {
-  height: 600px;
-  width: 600px;
-}
-
 .box {
   background-color: yellow;
-  height: 125px;
-  width: 125px;
+  height: 110px;
+  width: 110px;
 }
