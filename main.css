@@ -25,6 +25,7 @@ body {
   cursor: pointer;
   position: fixed;
   top: 20px;
+  right: 48%;
   letter-spacing: 1px;
   box-shadow: 0 3px;
   box-shadow: 0 3px rgba(249, 202, 36, 0.5);
@@ -33,12 +34,28 @@ body {
 }
 
 .magic:focus {
-   outline: 0;
+  outline: 0;
 }
 
 .magic:active {
-    box-shadow: none;
-    transform: translateY(2px);
+  box-shadow: none;
+  transform: translateY(2px);
 }
 
-.boxes
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 400px;
+}
+
+.boxes.big {
+   height: 500px;
+  width: 500px;
+}
+
+.box {
+  background-color: yellow;
+   height: 110px;
+  width: 110px;
+}
