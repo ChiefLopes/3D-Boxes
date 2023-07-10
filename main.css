@@ -15,7 +15,7 @@ body {
 }
 
 .magic {
-  background-color: #f9ca24;
+  background-color: #740361;
   font-family: "Kablammo", cursive;
   color: #fff;
   border: 0;
@@ -27,7 +27,7 @@ body {
   top: 20px;
   letter-spacing: 1px;
   box-shadow: 0 3px;
-  box-shadow: 0 3px rgba(249, 202, 36, 0.5);
+  box-shadow: 0 3px rgba(249, 36, 231, 0.5);
   z-index: 100;
   transition: background-color 0.5s ease-out;
 }
@@ -39,6 +39,7 @@ body {
 .magic:active {
   box-shadow: none;
   transform: translateY(2px);
+  background-color: #ac3297;
 }
 
 .boxes {
@@ -48,6 +49,7 @@ body {
   height: 400px;
   width: 400px;
   position: relative;
+  transition: 0.4s ease;
 }
 
 .boxes.big .box{
@@ -66,4 +68,26 @@ body {
   position: relative;
   height: 110px;
   width: 110px;
+  transition: 0.4s ease;
+}
+.box::after {
+    content: "";
+    background-color: #ac3297;
+    position: absolute;
+    top: 8px; 
+    right: -15px;
+    height: 100%;
+    width: 15px;
+    transform: skewY(45deg);
+}
+
+.box::before {
+    content: "";
+    background-color: #e65dcf;
+    position: absolute;
+    bottom: -15px;
+    left: 8px;
+    height: 15px;
+    width: 100%;
+    transform: skewX(45deg);
 }
