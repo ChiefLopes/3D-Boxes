@@ -64,13 +64,13 @@ body {
 .box {
   background-image: url(./asset/heart.gif);
   background-repeat: no-repeat;
-  background-size: 400px 400px;
+  background-size: cover cover;
   position: relative;
   height: 110px;
   width: 110px;
   transition: 0.4s ease;
 }
-.box::after {
+.boxes.big .box::after {
     content: "";
     background-color: #ac3297;
     position: absolute;
@@ -81,7 +81,7 @@ body {
     transform: skewY(45deg);
 }
 
-.box::before {
+.boxes.big .box::before {
     content: "";
     background-color: #e65dcf;
     position: absolute;
